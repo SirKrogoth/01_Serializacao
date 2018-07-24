@@ -8,8 +8,8 @@ namespace _00_Biblioteca
 {
     public class Usuario
     {
-        private string nome { get; set; }
-        private string cpf { get; set; }
-        private string email { get; set; }
+        public string nome { get; set; }
+        public string cpf { get; set; }
+        public string email { get; set; }
     }
 }
